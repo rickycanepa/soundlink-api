@@ -1,0 +1,21 @@
+{
+    "users": [
+        { "id": 1, "email": "clyde.chester@yahoo.com" },
+        { "id": 2, "email": "ronald.capstone@pillsbury.com" },
+        { "id": 3, "email": "ernie_suds@gmail.com" }
+    ],
+    
+    "songs": [
+        { "id": 1, "userId": 1, "songTitle": "Synth Heaven", "audioURL": "blank", "genre": "Dance", "bpm": 165, "key": "C#m" },
+        { "id": 2, "userId": 2, "songTitle": "Dystopia", "audioURL": "blank", "genre": "Hip hop", "bpm": 120, "key": "D" },
+        { "id": 3, "userId": 3, "songTitle": "Block Gate", "audioURL": "blank", "genre": "ambient", "bpm": 65, "key": "B" }
+    ],
+
+    "comments": [
+       { "id": 1, "userId": 1, "songId": 1, "text": "This song is no good, man." },
+       { "id": 2, "userId": 2, "songId": 2, "text": "Love it!" },
+       { "id": 3, "userId": 3, "songId": 3, "text": "Man, this sucks!" } 
+    ]
+    
+
+}
